@@ -1,5 +1,5 @@
 async function summarizeContent(text, wordCount) {
-  const apiKey = 'YOUR_GEMINI_API_KEY'; // Replace with your actual API key
+  const apiKey = ''; // Replace with your actual API key
   const response = await fetch('https://api.gemini.com/v1/summarize', {
     method: 'POST',
     headers: {
